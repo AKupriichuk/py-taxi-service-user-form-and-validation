@@ -7,7 +7,6 @@ from .views import (
     CarCreateView,
     CarUpdateView,
     CarDeleteView,
-    ToggleCarAssignmentView,
     DriverListView,
     DriverDetailView,
     DriverCreateView,
