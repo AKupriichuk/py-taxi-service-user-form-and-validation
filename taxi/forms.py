@@ -2,7 +2,7 @@ from django import forms
 from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import UserCreationForm
 from django.core.exceptions import ValidationError
-from taxi.models import Driver, Car
+from taxi.models import Car
 
 
 def validate_license_number(license_number):
